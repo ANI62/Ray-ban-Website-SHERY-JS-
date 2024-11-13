@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Gilroy;
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  width: 100%;
+  height: 100vh;
+
+}
+#back{
+  width: 100%;
+  height: 100vh;
+  background-color: #fa9393;
+}
+#back img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#top{
+  pointer-events: none !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  
+}
+#workingarea{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1920px;
+  height: 100vh;
+ position: relative;
+}
+#nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+#nav img{
+  height: 60px;
+}
+#nleft,#nright{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+#nav a{
+  pointer-events: all;
+  color: #fff;
+  font-family: Gilroy;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+
+}
+#hero{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  min-height: 100px;
+  display: flex;
+  transform: translate(0%, -50%);
+  justify-content: space-between;
+}
+#heroleft{
+  min-width: 60%;
+
+
+}
+#heroleft .elem{
+  position: relative;
+  height: 10vw;
+  overflow: hidden;
+ 
+}
+#heroright{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+ color: #fff;
+ 
+}
+#heroright p{
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 30px;
+  
+}
+#heroleft button{
+  pointer-events: all;
+  padding: 0.8vw 3vw;
+  font-family: 'kajiro';
+  font-size: 3vw;
+  margin-top: 2vw;
+  border-radius: 20px;
+}
+#heroleft .elem h1 :nth-child(1){
+  top: 0;
+}
+#heroleft .elem h1{
+  position: absolute;
+  font-family: kajiro;
+  top: 100%;
+  left: 0;
+  letter-spacing: 5px;
+  line-height: 0.9;
+  font-weight: 150;
+  font-size: 10vw;
+  color: #c3fd45;
+  
+}
+#heroright #imgdev{
+width: 100%;
+height: 190px;
+margin-top: 20px;
+margin-bottom: 50px;
+background-color: #fbc6c6;
+background-image: url(./img/bgc\ img);
+background-size: cover;
+background-position: center ;
+
+}
+
+
+#heroright p:nth-child(3){
+  margin-bottom: 50px;
+}
